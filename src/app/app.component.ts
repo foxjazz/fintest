@@ -1,6 +1,7 @@
 import { Component ,  OnInit} from '@angular/core';
+declare var finesse: any;
+import '../finesse.js';
 
-//import * as fin from 'finesse';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,7 @@ export class AppComponent implements OnInit{
 
 
 
-     finesse.ClientServices.init({host: this.uri, restHost: this.uri, id: "jdickinson", password: "4"});
+    // finesse.ClientServices.init({host: this.uri, restHost: this.uri, id: "jdickinson", password: "4"});
   }
   ngOnInit(){
 

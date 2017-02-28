@@ -1,5 +1,6 @@
 import './polyfills.ts';
-
+/*declare var finesse: any;
+import 'finesse.js';*/
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
